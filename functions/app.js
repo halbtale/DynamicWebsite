@@ -65293,7 +65293,7 @@ app.use(express.static(`${__dirname}/../`));
 // Api routers
 // app.use('/.netlify/functions/api/v1/comments', commentsRouter);
 
-app.get('/.netlify/functions/api/v1/comments', (req, res) => {
+app.get('/.netlify/functions/app', (req, res) => {
     res.json({
         status: 'success',
         data: [{
