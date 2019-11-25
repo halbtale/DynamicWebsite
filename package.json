@@ -1,0 +1,23 @@
+{
+    "name": "dynamicwebsite",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon server.js",
+        "start:prod": "NODE_ENV=production nodemon server.js",
+        "debug": "nodemon --inspect server.js",
+        "build": "netlify-lambda build express"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^8.1.0",
+        "express": "^4.17.1",
+        "mongoose": "^5.6.9"
+    },
+    "devDependencies": {
+        "netlify-lambda": "^0.4.0",
+        "serverless-http": "^1.6.0"
+    }
+}

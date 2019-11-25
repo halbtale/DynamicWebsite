@@ -1,0 +1,95 @@
+#titolo {
+    /*position:static;*/
+    color: #a45c5c;
+    text-align: left;
+    font-style: oblique;
+    background-color: #a5f1df;
+    text-decoration: blink;
+    font-size: 26px;
+}
+
+body {
+    /* background-image:url("../immagini/sfondo.GIF"); */
+    background-color: #f8f1df;
+    /* background-repeat:repeat-x; */
+    font-family: 'Palatino Linotype', serif;
+    color: #8a7069;
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    font-size: 24px;
+    font-style: oblique;
+    text-decoration: none;
+}
+a:link {
+    color: #8a7069;
+}
+a:visited {
+    color: #8a7069;
+}
+a:hover {
+    color: #a0a0a0;
+}
+a:active {
+    color: #a0a0a0;
+}
+
+#home {
+    /*opacity:0.1;*/
+    background-repeat: no-repeat;
+    font-style: oblique; /*inclinazione carattteri */
+    /*position:absolute;*/
+    /*width:635px;*/
+    padding: 0px;
+    text-align: justify;
+    margin: 0px 10% 0px 10%;
+    bottom: 2.2em;
+    top: 3em; /*verificare la distanza dal bordo superiore in riferimento all'altezza complessiva del titolo,oppure esprimere in px*/
+}
+
+h1 {
+    font-size: 26px;
+}
+h3 {
+    font-size: 4em;
+    color: #c45c5c;
+    text-shadow: 2px 2px 4px black;
+}
+
+textarea {
+    width: 100%;
+}
+button {
+    position: relative;
+    right: 0px;
+}
+
+b {
+    font-style: normal;
+    color: #8a7069;
+}
+
+img {
+    border-color: #a0a0a0;
+    width: auto;
+    height: 100px;
+    position: static;
+}
+
+pa:link,
+pa:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+pa:hover,
+pa:active {
+    color: #c80000;
+    text-decoration: none;
+}
+
+.comment {
+    width: 100%;
+    background: white;
+}
