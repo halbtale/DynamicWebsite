@@ -1,12 +1,12 @@
 const dotenv = require('dotenv');
 const express = require('express');
 const serverless = require('serverless-http');
-const commentsRouter = require('./routes/commentsRouter');
+const commentsRouter = require(`${__dirname}/routes/commentsRouter`);
 
 dotenv.config({ path: `${__dirname}/config.env` });
 
 // connectDB
-require('./database/connectDB');
+require(`${__dirname}/database/connectDB`);
 
 //initializate express app
 const app = express();
