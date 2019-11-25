@@ -6,7 +6,7 @@ const commentsRouter = require(`${__dirname}/routes/commentsRouter`);
 dotenv.config({ path: `${__dirname}/config.env` });
 
 // connectDB
-require(`${__dirname}/database/connectDB`);
+require(`${__dirname}/database/connectDb`);
 
 //initializate express app
 const app = express();
