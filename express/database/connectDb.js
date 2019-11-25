@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const DB = process.env.DATABASE.replace('<PASSWORD>', process.env.DATABASE_PASSWORD);
+const DB = 'mongodb+srv://admin:MiaoMiao9!@cluster0-0u0f3.mongodb.net/websitedata?retryWrites=true&w=majority';
 
 mongoose
     .connect(DB, {
