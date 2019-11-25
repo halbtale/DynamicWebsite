@@ -65307,7 +65307,7 @@ app.use(express.json());
 app.use(express.static(`${__dirname}/../`));
 
 // Api routers
-app.use('/api/v1/comments', commentsRouter);
+app.use('/.netlify/functions/api/v1/comments', commentsRouter);
 
 module.exports = app;
 module.exports.handler = serverless(app);

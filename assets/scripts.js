@@ -8,7 +8,7 @@ submit_button.addEventListener('click', () => {
     const author = author_input.value;
     const body_content = { message, author };
     if (message && author) {
-        fetch('/api/v1/comments', {
+        fetch('/.netlify/functions/api/v1/comments', {
             method: 'POST',
             headers: {
                 Accept: 'application/json',
@@ -26,7 +26,7 @@ window.addEventListener('load', () => {
 });
 
 function loadComments() {
-    fetch('/api/v1/comments')
+    fetch('/.netlify/functions/api/v1/comments')
         .then(results => {
             return results.json();
         })
